@@ -9,27 +9,23 @@
  *    */
 
 int main(void)
-
 {
+	char lower = 'a';
+	char uypper = 'A';
 
-		char alpha = 'a';
+	while (lower <= 'z') /*print lowercase a-z*/
+	{
+		putchar(lower);
+		lower++;
+	}
 
+	while (upper <= 'Z') /*print uppercase A-Z*/
+	{
+		putchar(upper);
+		upper++;
+	}
 
+	putchar('\n');
 
-			while (alpha <= 'z')
-
-					{
-
-								putchar(alpha);
-
-										alpha++;
-
-											}
-
-				putchar('\n');
-
-
-
-					return (0);
-
+	return(0);
 }
