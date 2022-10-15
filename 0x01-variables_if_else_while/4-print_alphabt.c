@@ -8,17 +8,15 @@
 
 int main(void)
 {
-	char alpha = 'a';
-
-	while (alpha <= 'z')
-	{
-		if ((alpha != 'q') && (alpha != 'e'))
-		{
-			putchar(alpha);
-		}
-	        alpha++;
-	}
-        putchar('\n');
-
-        return (0);
-}	
+char low,
+e, q;
+e = 'e';
+q = 'q';
+for (low = 'a'; low <= 'z'; low++)
+{
+if (low != e && low != q)
+putchar(low);
+}
+printf("\n");
+return (0);
+}
