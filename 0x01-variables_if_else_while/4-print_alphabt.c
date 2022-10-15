@@ -5,16 +5,20 @@
  *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	char letter;
+	char alpha = 'a';
 
-	for (letter = 'a'; letter <= 'z'; letter++)
+	while (alpha <= 'z')
 	{
-	if (letter != 'e' && letter != 'q')
-	putchar(letter);
+		if ((alpha != 'q') && (alpha != 'e'))
+		{
+		putchar(alpha);
+		}
+	        alpha++;
 	}
-	putchar('\n');
+        putchar('\n');
 
-return (0);
-}
+        return (0);
+}	

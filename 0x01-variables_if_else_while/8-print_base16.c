@@ -5,17 +5,25 @@
  *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	char digit;
+	int n = '0';
+	int a_to_f = 'a';
 
-	for (digit = '0'; digit <= '9'; digit++)
-		putchar(digit);
-	
-	for (digit = 'a'; digit <= 'f'; digit++)
-		putchar(digit);
+	while (n <= '9') /*print 0-9*/
+	{
+		putchar(n);
+		n++;
+	}
 
-	        putchar('\n');
+	while (a_to_f <= 'f') /*print a-f to finish hexbase*/
+	{
+		putchar(a_to_f);
+		a_to_f++;
+	}
 
-		return (0);
+	putchar('\n');
+
+	return (0);
 }

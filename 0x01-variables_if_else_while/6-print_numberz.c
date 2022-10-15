@@ -5,12 +5,17 @@
  *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	int digit;
+	int n = '0';
 
-	for (digit = 0; digit < 10; digit++)
-		putchar(digit + '0');
-	        putchar('\n');
+	while (n <= '9')
+	{
+		putchar(n);
+		n++;
+	}
+	putchar('\n');
+
 	return (0);
 }

@@ -11,7 +11,7 @@
 int main(void)
 {
 	char lower = 'a';
-	char uypper = 'A';
+	char upper = 'A';
 
 	while (lower <= 'z') /*print lowercase a-z*/
 	{
