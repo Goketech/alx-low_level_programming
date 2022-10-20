@@ -24,7 +24,7 @@ void print_number(int n)
 			t_beg *= 10;
 		tens = t_beg / 10;
 
-		while (tens > = 1)
+		while (tens >= 1)
 		{
 			digit = positive / tens;
 			_putchar(digit + '0');
